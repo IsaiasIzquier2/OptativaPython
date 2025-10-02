@@ -1,9 +1,10 @@
+num1 = int(input("Introduce un número entero"))
+num2 = int(input("Introduce otro número entero"))
+suma = 0
 
-contador = 0
-while(contador <5):
+for n in range(num1, num2):
+    suma = suma + n
+    
+    print(suma)
 
-    contador= contador  + 1
-    print(contador)
-    if contador == 3:
-        break
-print("fin")
+
