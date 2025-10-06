@@ -1,12 +1,10 @@
 num1 = int(input("Introduce un número entero"))
 num2 = int(input("Introduce otro número entero"))
-repeticiones = num2 - num1 + 1
-suma = num1
+suma = 0
 
-for n in range(repeticiones):
+for n in range(num1, num2):
     suma = suma + n
     
-    
-print(suma)
+    print(suma)
 
 
