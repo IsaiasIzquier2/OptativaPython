@@ -1,5 +1,5 @@
-num1 = int(input("Introduce un número entero"))
-num2 = int(input("Introduce otro número entero"))
+num1 = int(input("Número de inicio:"))
+num2 = int(input("Número de fin:"))
 suma1 = 0
 suma2 = 0
 
