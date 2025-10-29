@@ -1,16 +1,20 @@
-
-numa = int(input("Introduce un número del 1 al 10:"))
-num = 6
+import random
 
 
-if (num == numa):
+num = random.randint(1,10)
 
-    print("FELICIDADES!!!! has adivinado el número")
 
-elif (num > numa):
 
-    print("Te has quedado corto")
+for i in range(3):
 
-else:
+    if (num == numa):
 
-    print("Te has pasado")
+        print("FELICIDADES!!!! has adivinado el número")
+
+    elif (num > numa):
+
+        print("Te has quedado corto")
+
+    else:
+
+        print("Te has pasado")

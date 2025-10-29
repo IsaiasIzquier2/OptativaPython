@@ -11,7 +11,7 @@
 
 num1 = int(input("Introduce un número entero:"))
 num2 = int(input("Introduce otro número entero:"))
-suma =
+suma = 0
 
 while():
     num = num1 +1
