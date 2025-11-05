@@ -7,6 +7,7 @@ num = random.randint(1,10)
 
 for i in range(3):
 
+    numa = int(input("Adivina numero"))
     if (num == numa):
 
         print("FELICIDADES!!!! has adivinado el número")
