@@ -15,4 +15,4 @@ def primo (n):
 
 
 
-print(primo(3))
+
