@@ -21,6 +21,22 @@ while count<=9:
 
 else:
 
+        list3 = list1 + list2
+
+        for i in list1:
+
+            x = list3.count(i)
+
+            if x >= 2:
+
+                repNum.append(i)
+
+                
+
+
+        
+
+print(f"Números en comun en la lista 1 y 2: {repNum}")
 
 
 
